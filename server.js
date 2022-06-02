@@ -15,6 +15,7 @@ mongoose.connect(
     useUnifiedTopology: true,
   }
 );
+
 mongoose.set("debug", true);
 
 app.use(require("./routes"));
